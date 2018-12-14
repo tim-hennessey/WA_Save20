@@ -83,7 +83,7 @@ body {
         bottom: 0px;
         left: 0px;
         transform: translate3d(0, 0, 0.1px);
-        clip: rect(0px, 300px, 50px, 0px);
+        clip: rect(0px, 160px, 42px, 0px);
         position: absolute;
     }
 
@@ -91,7 +91,7 @@ body {
         bottom: 0px;
         left: 0px;
         transform: translate3d(0, 0, 0.1px);
-        clip: rect(50px, 115px, 84px, 0px);
+        clip: rect(42px, 47px, 88px, 0px);
         position: absolute;
     }
 
@@ -99,7 +99,7 @@ body {
         bottom: 0px;
         left: 0px;
         transform: translate3d(0, 0, 0.1px);
-        clip: rect(50px, 166px, 84px, 115px);
+        clip: rect(42px, 94px, 88px, 47px);
         position: absolute;
     }
 
@@ -107,7 +107,7 @@ body {
         bottom: 0px;
         left: 0px;
         transform: translate3d(0, 0, 0.1px);
-        clip: rect(50px, 300px, 84px, 166px);
+        clip: rect(42px, 160px, 88px, 94px);
         position: absolute;
     }
 
@@ -115,7 +115,7 @@ body {
         top: 0px;
         left: 0px;
         opacity: 0;
-        clip: rect(0px, 300px, 69px, 0px);
+        clip: rect(0px, 160px, 113px, 0px);
         position: absolute;
     }
 
@@ -123,7 +123,7 @@ body {
         top: 0px;
         left: 0px;
         opacity: 0;
-        clip: rect(69px, 158px, 98px, 0px);
+        clip: rect(113px, 160px, 215px, 0px);
         transform: translate3d(0, 0, 0.1px);
         position: absolute;
     }
@@ -132,15 +132,17 @@ body {
         top: 0px;
         left: 0px;
         opacity: 0;
-        clip: rect(69px, 300px, 98px, 158px);
+        clip: rect(215px, 160px, 245px, 0px);
         position: absolute;
     }
+
+
 
     #txt3a {
         top: 0px;
         left: 0px;
         opacity: 0;
-        clip: rect(0px, 300px, 52px, 0px);
+        clip: rect(0px, 160px, 175px, 0px);
         position: absolute;
     }
 
@@ -148,7 +150,7 @@ body {
         top: 0px;
         left: 0px;
         opacity: 0;
-        clip: rect(52px, 300px, 81px, 0px);
+        clip: rect(175px, 160px, 200px, 0px);
         position: absolute;
     }
 
@@ -156,27 +158,30 @@ body {
         top: 0px;
         left: 0px;
         opacity: 0;
-        clip: rect(81px, 300px, 112px, 0px);
+        clip: rect(200px, 160px, 220px, 0px);
         position: absolute;
     }
+
+    #txt3d {
+        top: 0px;
+        left: 0px;
+        opacity: 0;
+        clip: rect(220px, 160px, 241px, 0px);
+        position: absolute;
+    }
+
+
 
     #cta {
         border: 2px solid rgba(255, 255, 255, 0);
         width: 140px;
-        height: 26px;
-        left: 80px;
-        top: 125px;
+        height: 30px;
+        left: 8px;
+        top: 280px;
         border-radius: 70px;
         background-color: rgba(242, 104, 39, 1);
         opacity: 0;
         position: absolute;
-
-        #cta_txt {
-
-            left: 0;
-            top: -2px;
-            position: absolute;
-        }
     }
 
     #button-exit {

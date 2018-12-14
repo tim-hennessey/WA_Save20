@@ -81,33 +81,33 @@ body {
 
     #logo1 {
         bottom: 0px;
-        left: 0px;
+        right: 0px;
         transform: translate3d(0, 0, 0.1px);
-        clip: rect(0px, 300px, 50px, 0px);
+        clip: rect(0px, 171px, 58px, 0px);
         position: absolute;
     }
 
     #logo2a {
         bottom: 0px;
-        left: 0px;
+        right: 0px;
         transform: translate3d(0, 0, 0.1px);
-        clip: rect(50px, 115px, 84px, 0px);
+        clip: rect(58px, 47px, 90px, 0px);
         position: absolute;
     }
 
     #logo2b {
         bottom: 0px;
-        left: 0px;
+        right: 0px;
         transform: translate3d(0, 0, 0.1px);
-        clip: rect(50px, 166px, 84px, 115px);
+        clip: rect(58px, 93px, 90px, 47px);
         position: absolute;
     }
 
     #logo2c {
         bottom: 0px;
-        left: 0px;
+        right: 0px;
         transform: translate3d(0, 0, 0.1px);
-        clip: rect(50px, 300px, 84px, 166px);
+        clip: rect(58px, 171px, 90px, 93px);
         position: absolute;
     }
 
@@ -115,7 +115,7 @@ body {
         top: 0px;
         left: 0px;
         opacity: 0;
-        clip: rect(0px, 300px, 69px, 0px);
+        clip: rect(0px, 340px, 44px, 0px);
         position: absolute;
     }
 
@@ -123,7 +123,7 @@ body {
         top: 0px;
         left: 0px;
         opacity: 0;
-        clip: rect(69px, 158px, 98px, 0px);
+        clip: rect(44px, 188px, 90px, 0px);
         transform: translate3d(0, 0, 0.1px);
         position: absolute;
     }
@@ -132,15 +132,16 @@ body {
         top: 0px;
         left: 0px;
         opacity: 0;
-        clip: rect(69px, 300px, 98px, 158px);
+        clip: rect(44px, 340px, 90px, 188px);
         position: absolute;
     }
+
 
     #txt3a {
         top: 0px;
         left: 0px;
         opacity: 0;
-        clip: rect(0px, 300px, 52px, 0px);
+        clip: rect(0px, 370px, 55px, 0px);
         position: absolute;
     }
 
@@ -148,35 +149,20 @@ body {
         top: 0px;
         left: 0px;
         opacity: 0;
-        clip: rect(52px, 300px, 81px, 0px);
-        position: absolute;
-    }
-
-    #txt3c {
-        top: 0px;
-        left: 0px;
-        opacity: 0;
-        clip: rect(81px, 300px, 112px, 0px);
+        clip: rect(55px, 370px, 90px, 0px);
         position: absolute;
     }
 
     #cta {
         border: 2px solid rgba(255, 255, 255, 0);
-        width: 140px;
-        height: 26px;
-        left: 80px;
-        top: 125px;
+        width: 137px;
+        height: 30px;
+        left: 380px;
+        top: 29px;
         border-radius: 70px;
         background-color: rgba(242, 104, 39, 1);
         opacity: 0;
         position: absolute;
-
-        #cta_txt {
-
-            left: 0;
-            top: -2px;
-            position: absolute;
-        }
     }
 
     #button-exit {
