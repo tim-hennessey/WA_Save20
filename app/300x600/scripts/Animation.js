@@ -16,9 +16,9 @@ app.Animation = (function () {
     var shape6 = document.getElementById('shape6');
     var shape = document.getElementsByClassName('shape');
 
-    var txt1 = document.getElementById('txt1');
-    var txt2a = document.getElementById('txt2a');
-    var txt2b = document.getElementById('txt2b');
+    // var txt1 = document.getElementById('txt1');
+    // var txt2a = document.getElementById('txt2a');
+    // var txt2b = document.getElementById('txt2b');
 
     var txt3a = document.getElementById('txt3a');
     var txt3b = document.getElementById('txt3b');
@@ -39,9 +39,9 @@ app.Animation = (function () {
     // set default properties
     function initialize() {
         t.set(banner, {opacity: 1});
-        t.set(txt1, {scale:.5, transformOrigin: "50% 70%"});
-        t.set(txt2a, {scale:.5, transformOrigin: "50% 80%"});
-        t.set(txt2b, {scale:.5, transformOrigin: "50% 90%"});
+        // t.set(txt1, {scale:.5, transformOrigin: "50% 70%"});
+        // t.set(txt2a, {scale:.5, transformOrigin: "50% 80%"});
+        // t.set(txt2b, {scale:.5, transformOrigin: "50% 90%"});
 
         t.set(txt3a, {scale:.5, transformOrigin: "50% 50%"});
         t.set(txt3b, {scale:.5, transformOrigin: "50% 50%"});
@@ -95,15 +95,7 @@ app.Animation = (function () {
 
 
 
-        tl2.to(txt1, .75, {scale:1, opacity:1, ease: Cubic.easeInOut}, "+=.5")
-            .to(txt2a, .75, {scale:1, opacity:1, ease: Cubic.easeInOut}, "+=.5")
-            .to(txt2b, .75, {scale:1, opacity:1, ease: Cubic.easeInOut}, "+=.5")
-
-            .to(txt1, .5, {opacity:0}, "+=3")
-            .to(txt2a, .5, {opacity:0}, "-=.5")
-            .to(txt2b, .5, {opacity:0}, "-=.5")
-
-            .to(txt3a, .65, {scale:1, opacity:1, ease: Cubic.easeInOut})
+        tl2.to(txt3a, .65, {scale:1, opacity:1, ease: Cubic.easeInOut}, "+=.5")
             .to(txt3b, .65, {scale:1, opacity:1, ease: Cubic.easeInOut})
             .to(txt3c, .65, {scale:1, opacity:1, ease: Cubic.easeInOut})
             .to(txt3d, .65, {scale:1, opacity:1, ease: Cubic.easeInOut})
